@@ -1,0 +1,14 @@
+.g-menu{
+background: linear-gradient(246.24deg, #00094D 0%, #000424 100%);
+}
+.g-menu .navbar-nav  .nav-item .nav-link{
+  font-family: 'Poppins';
+font-weight: 500;
+font-size: 18px;
+line-height: 32px;
+color: #28ACE2;
+}
+.g-menu .navbar-nav  .nav-item .nav-link.active{
+  color: #D4F454;
+
+}
