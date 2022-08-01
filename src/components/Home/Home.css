@@ -6,11 +6,9 @@
 main {
   max-width: 100%;
 }
-
 a {
   text-decoration: none;
 }
-
 /* banner-section  */
 .banner-section {
   background: linear-gradient(246.24deg, #00094d 0%, #000424 100%);
@@ -18,10 +16,8 @@ a {
   max-width: 100%;
   display: flex;
   justify-content: center;
-  padding: 80px 0;
   align-items: center;
 }
-
 .banner-section .banner-wraper {
   display: flex;
   justify-content: center;
@@ -47,7 +43,6 @@ a {
   color: #2ebbe5;
   width: 600px;
 }
-
 .banner-section .banner-content .clr-change {
   background: -webkit-linear-gradient(#e3f891, #cbf231);
   background-clip: text;
@@ -82,7 +77,6 @@ a {
   border-radius: 4px;
   padding: 7px 25px;
 }
-
 .button-holder .jfss-btn2:hover {
   background: linear-gradient(265.22deg, #def77d 0%, #d0f344 100%);
   box-shadow: inset -8px -8px 16px #b6cc63,
@@ -90,12 +84,10 @@ a {
   color: #00052f;
   border: 2px solid #d0f344;
 }
-
 /* animation  */
 .animation {
   position: relative;
 }
-
 .animation .circle1 {
 left: -121%; 
   width: 533px;
@@ -140,7 +132,6 @@ left: -121%;
   top: 34%;
   left: 34%;
 }
-
 .animation .circle1 .cir1 {
   position: absolute;
   content: " ";
@@ -201,14 +192,11 @@ left: -121%;
   bottom: 1%;
   left: 11%;
 }
-
 /* Animation */
-
 .planeImg {
   transition: all 3s;
   margin-bottom: 50px;
 }
-
 .anim-plane  .line-anim {
   margin-top: 22px;
   margin-right: 5px;
@@ -219,15 +207,10 @@ left: -121%;
   background:  #28ACE2;
   border-radius: 10px;
    margin-bottom: 5px;
-
 }
 .anim-plane:hover .planeImg {
   margin-left: 500px;
 }
-
-
-
-
 /* Circle Animation  */
 .animation .circle1 .cir1 {
   transition: all 0.7s;
@@ -239,12 +222,10 @@ left: -121%;
   margin-left: 250px;
   margin-top: 80px;
 }
-
 .animation:hover .circle1 .cir2 {
   margin-left: -240px;
   margin-bottom: 150px;
 }
-
 .animation .circle2 .cir1 {
   transition: all 0.7s;
 }
@@ -255,7 +236,6 @@ left: -121%;
   margin-left: -150px;
   margin-top: -70px;
 }
-
 .animation:hover .circle2 .cir2 {
   margin-left: -200px;
   margin-bottom: -135px;
@@ -270,16 +250,14 @@ left: -121%;
   margin-left: 200px;
   margin-top: -25px;
 }
-
 .animation:hover .circle3 .cir2 {
   margin-left: -60px;
   margin-bottom: 100px;
 }
-
-
-/* 
 @media (max-width:1199px){
-
+  /* .banner-wrapper{
+    margin-top: 250px;
+  } */
 .banner-section .banner-content h1 {
   font-size: 56px;
   line-height: 68px;
@@ -293,8 +271,6 @@ left: -121%;
   font-size: 16px;
   margin-bottom: 30px;
 }
-
-
 .animation .circle1{
  width: 438px;
     height: 445px;
@@ -302,7 +278,6 @@ left: -121%;
 .animation .circle2{
 width: 363px;
     height: 362px;
-
 }
 .animation .circle3{
 width: 281px;
@@ -316,7 +291,6 @@ width: 281px;
     margin-left: 224px;
     margin-top: 80px;
 }
-
 .animation:hover .circle1 .cir2 {
     margin-left: -209px;
     margin-bottom: 141px;
@@ -333,58 +307,42 @@ width: 281px;
     margin-left: 200px;
     margin-top: 5px;
 }
-
 }
 @media (max-width:991px){
-
   .banner-section {
     height: 100%;
     padding: 100px 0;
   }
-
-
   .animation:hover .circle1 .cir1 {
     margin-left: 220px;
     margin-top: 80px;
 }
-
 .animation:hover .circle1 .cir2 {
   margin-left: -212px;
-
 }
 .animation:hover .circle2 .cir1 {
   margin-left: -156px;
   margin-top: -57px;
 }
-
 .animation:hover .circle2 .cir2 {
     margin-left: -200px;
     margin-bottom: -110px;
 }
-
-
 .animation:hover .circle3 .cir1 {
   margin-left: 147px;
   margin-top: -30px;
 }
 }
 @media (max-width:767px){
-
 .banner-section .banner-content p {
     width: 100%;
 }
 }
-
 @media (max-width:575px){
-
-
 }
 @media (max-width:480px){
-
-
 }
 @media (max-width:420px){
-
 .animation .circle1 {
   width: 350px;
   height: 350PX;
@@ -405,33 +363,126 @@ left: 14%;
   width: 120px;
   height: 120PX;
 }
-
-
 .animation .circle1 .cir1 {
   width: 34px;
   height: 34px;
 }
-
 .animation .circle3 .cir2 {
   width: 38px;
   height: 38px;
+  height: 933408;
   bottom: 8%;
   left: 6%;
 }
+.animation:hover .circle1 .cir1 {
+  margin-left: 187px;
+  margin-top: 80px;
+}
+.animation:hover .circle2 .cir1 {
+  margin-left: -149px;
+  margin-top: -47px;
+}
+.animation:hover .circle2 .cir2 {
+  margin-left: -200px;
+  margin-bottom: -87px;
+}
+.animation:hover .circle1 .cir2 {
+  margin-left: -167px;
+  margin-bottom: 106px;
+}
+.animation:hover .circle3 .cir1 {
+  margin-left: 122px;
+  margin-top: -30px;
+}
+.animation:hover .circle3 .cir2 {
+  margin-left: -32px;
+  margin-bottom: 68px;
+}
 }
 @media (max-width:375px){
-
-
+.animation .circle1 {
+  width: 340px;
+  height: 340PX;
+}
+.animation .circle2 {
+  width: 293px;
+  height: 291PX;
+}
+.animation .circle3 {
+  width: 230px;
+  height: 230PX;
+  top: 16%;
+  left: 17%;
+}
+.animation .circle1 .cir2 { 
+  bottom: -3%;
+}
+.animation:hover .circle3 .cir1 {
+  margin-left: 122px;
+  margin-top: -19px;
+}
+.animation:hover .circle2 .cir2 {
+  margin-left: -200px;
+  margin-bottom: -81px;
+}
+.animation .circle3 .cir1 {
+  top: 8%;
+}
 }
 @media (max-width:360px){
-
-
+.banner-content {
+  padding: 0 10px;
+}
+  .banner-section .banner-content h1 {
+  font-size: 38px;
+  line-height: 52px;
+}
+.animation .circle1 {
+  width: 280px;
+  height: 280px;
+}
+.animation .circle2 {
+  width: 230px;
+  height: 230px;
+top: 9%;
+  left: 9%;
+}
+.animation .circle3 {
+  width: 185px;
+  height: 185px;
+  top: 17%;
+  left: 17%;
+}
+.animation .circle4{
+  top: 27%;
+left: 30%;
+}
+.animation:hover .circle1 .cir1 {
+  margin-left: 155px;
+  margin-top: 80px;
+}
+.animation:hover .circle1 .cir2 {
+  margin-left: -143px;
+  margin-bottom: 106px;
+}
+.animation:hover .circle2 .cir1 {
+  margin-left: -132px;
+  margin-top: -35px;
+}
+.animation:hover .circle2 .cir2 {
+  margin-left: -186px;
+  margin-bottom: -48px;
+}
+.animation:hover .circle3 .cir1 {
+  margin-left: 122px;
+  margin-top: 0px;
+}
+.animation:hover .circle3 .cir2 {
+  margin-left: -26px;
+  margin-bottom: 70px;
+}
 }
 @media (max-width:320px){
-
-
 }
 @media (max-width:300px){
-
-
-} */
+}
